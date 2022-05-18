@@ -14,7 +14,6 @@
     width: 200px;
     height: 200px;
     background-color: #2e8b57;
-    border-radius: 100%;
     margin-bottom: 40px;
     image-orientation: flip;
   }
@@ -31,7 +30,7 @@
     max-width: 100%;
     width: 100%;
     display: flex;
-    object-fit: cover;
+    object-fit:cover;
     object-position: center center;
   }
   a {
@@ -184,6 +183,7 @@
     animation: aparecer1 2s ease 1 both ;
     
   }
+  
   .footer .ul{
     /* background: red; */
     margin: 2em 0 0;
@@ -226,7 +226,7 @@
   }
   .seccion .grid{
     width: 90%;
-    max-width: 40em;
+    max-width: 35em;
     margin: 1em 0;
   
     display: grid;
@@ -275,10 +275,10 @@
     opacity: 1;
     transform:translateZ(1) scale(1);
   }
-  .works{
+  .proyectos{
     color:var(--blanco);
   }
-  .works .h2{
+  .proyectos .h2{
     margin: 0 0 1rem;
     color:inherit;
     
