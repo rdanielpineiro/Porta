@@ -183,6 +183,11 @@
     animation: aparecer1 2s ease 1 both ;
     
   }
+ 
+  .footer .ul .li{
+    /* background: chartreuse; */
+    margin: 0 1em;
+  }
   
   .footer .ul{
     /* background: red; */
@@ -192,10 +197,10 @@
     justify-content: center;
     align-items: center;
   }
-  .footer .ul .li{
-    /* background: chartreuse; */
-    margin: 0 1em;
+  .li_proyectos{
+    margin-bottom: 25px;
   }
+  
   .seccion .ul .a{
     border:1px solid rgba(255,255,255,.2);
     border-radius: 50%;
